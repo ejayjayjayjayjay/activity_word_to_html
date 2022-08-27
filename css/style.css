@@ -17,6 +17,10 @@
   body {
       background-color: lightyellow;
       background-image: url(../images/pexels-guillaume-meurice-1591447.jpg);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: 100% 100%;
+      background-attachment: fixed;
       color: gray;
       font-family: "calibri", sans-serif;
       margin-top: 5%;
