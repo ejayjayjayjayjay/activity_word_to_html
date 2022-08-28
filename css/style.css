@@ -91,6 +91,12 @@
       padding-left: 100px;
   }
 
+  .div{
+    /* style="width:0px;min-width:100%;max-width:100%; */
+    width: 61.3%;
+  }
+
+
   .footer{
     height: 20vh;
     width: 61.3%;
