@@ -30,16 +30,6 @@
       /* margin-bottom: 5%; */
   }
 
-  @media screen and (max-width:600px) {
-
-      body {
-
-            background-size: cover;
-            background-position: 50% 50%;
-            background-attachment: fixed;
-            background-image: linear-gradient(to right bottom, #ddb4a7e9, #74bccb8f), url("/images/pexels-guillaume-meurice-1591447.jpg");
-      }
-  }
 
   img {
       width: 200px;
@@ -118,4 +108,19 @@
       color: white;
       text-align: center;
       padding-top: 60px;
+  }
+
+  /* ----MEDIA QUERRIES---- */
+
+  /* ----BODY ELEMENT---- */
+
+  @media screen and (max-width:600px) {
+
+      body {
+
+          background-size: cover;
+          background-position: 50% 50%;
+          background-attachment: fixed;
+          background-image: linear-gradient(to right bottom, #ddb4a7e9, #74bccb8f), url("/images/pexels-guillaume-meurice-1591447.jpg");
+      }
   }
